@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&family=Sansita+Swashed:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+	background-image: url('../img/Healthy-Foods.jpg') !important;
+    background-repeat: no-repeat !important;
+	background-attachment:fixed;
+    background-size: cover !important;
+	background-position:center;
+}
+.food{
+	color:red;
+	font-family: 'Pacifico', cursive !important;
+}
+.fo{
+	padding:70px;
+}
+.card{
+	background-color:rgba(255,255,255,0.8);
+	width:100%;
+	padding:20px;
+	font-family: 'Pacifico', cursive;
+}
+.card-title{
+	font-family: 'Pacifico', cursive;
+	font-weight:400;
+	font-size:30px;
+	margin-bottom:30px;
+}
+
+@media only screen and (orientation: portrait) {
+	body{
+		background-image: url('../img/Healthy-Foods.jpg') !important;
+		background-repeat: no-repeat !important;
+		background-attachment:fixed;
+		background-size: cover !important;
+		margin: 0 0 55px 0;
+	}
+	.fo{
+		padding:20px;
+	}
+	.card{
+		width:100%;
+		padding:20px;
+		font-family: 'Pacifico', cursive;
+	}
+}
